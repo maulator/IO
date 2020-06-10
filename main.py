@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
     zm_baza_pra, zm_baza_chlo = 0,0
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1016, 851)
+        MainWindow.setFixedSize(1016, 851)
         
        
 
